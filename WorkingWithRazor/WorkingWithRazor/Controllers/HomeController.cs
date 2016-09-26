@@ -14,5 +14,15 @@ namespace WorkingWithRazor.Controllers
             string[] names = { "Apple", "Orange", "Pear" };
             return View(names);
         }
+
+        public ActionResult List()
+        {
+            return View();
+        }
+        [ChildActionOnly]
+        public ActionResult Time()
+        {
+            return PartialView(DateTime.Now);
+        }
     }
 }
