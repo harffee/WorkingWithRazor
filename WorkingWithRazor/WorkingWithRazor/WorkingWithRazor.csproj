@@ -123,6 +123,7 @@
     <Content Include="Views\Shared\MyPartial.cshtml" />
     <Content Include="Views\Common\List.cshtml" />
     <Content Include="Views\Home\List.cshtml" />
+    <Content Include="Views\Home\Time.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
